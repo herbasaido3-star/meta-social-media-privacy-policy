@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Saidos Workflow</title>
+    
+    <meta name="description" content="Official Privacy Policy for Saidos Workflow - Social Media Content Posting & Automation for Meta Graph API, YouTube API, TikTok, Instagram and more.">
+    <meta name="keywords" content="Privacy Policy, Saidos Workflow, Meta Graph API, Facebook API, Instagram Graph API, YouTube Data API, TikTok API, GDPR, Data Protection, Social Media Automation, Content Posting">
+
+    <style>
+        :root {
+            --primary-color: #ee1d52;
+            --bg-color: #f4f4f4;
+            --card-bg: #ffffff;
+            --text-color: #333;
+            --muted-text: #888;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--text-color); background-color: var(--bg-color); }
+        header { background-color: var(--primary-color); color: white; text-align: center; padding: 60px 20px; margin-bottom: 30px; }
+        header h1 { font-size: 2.8rem; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px 40px; }
+        .card { background-color: var(--card-bg); padding: 40px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
+        .back-link { display: inline-block; margin-bottom: 20px; color: var(--primary-color); text-decoration: none; font-weight: bold; }
+        .quick-links { background: #fff5f7; padding: 20px; border-radius: 8px; margin-bottom: 30px; border-left: 4px solid var(--primary-color); }
+        .quick-links a { color: var(--primary-color); text-decoration: none; font-weight: 600; margin-right: 15px; }
+        h2, h4 { color: var(--primary-color); margin-top: 30px; margin-bottom: 15px; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 20px; padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        footer { text-align: center; padding: 20px; color: var(--muted-text); font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Saidos Workflow</h1>
+        <p>Official Privacy Policy (English Version)</p>
+    </header>
+
+    <main class="container">
+        <a href="index.html" class="back-link">&larr; Back to Home</a>
+
+        <section class="card">
+            <div class="quick-links">
+                <h4>Quick Access:</h4>
+                <a href="index.html">Privacy (DE)</a>
+                <a href="terms-of-service.html">Terms of Service (EN)</a>
+                <a href="datenschutz-und-impressum.html">Legal (DE)</a>
+            </div>
+
+            <h1>Privacy Policy for Saidos Workflow</h1>
+
+            <p>We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of <strong>Saidos Workflow</strong>. The use of the Internet pages of Saidos Workflow is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.</p>
+
+            <p>The processing of personal data, such as the name, address, e-mail address, or telephone number of a data subject shall always be in line with the General Data Protection Regulation (GDPR), and in accordance with the country-specific data protection regulations applicable to <strong>Saidos Workflow</strong>.</p>
+
+            <p>Our service enables automated <strong>social media content posting</strong> across multiple platforms via their official APIs, with a primary focus on the <strong>Meta Graph API (Facebook &amp; Instagram)</strong> and the <strong>YouTube Data API v3</strong>, as well as TikTok, LinkedIn, Pinterest, X (Twitter), and other social media networks.</p>
+
+            <h4>1. Definitions</h4>
+            <p>The data protection declaration of Saidos Workflow is based on the terms used by the European legislator for the adoption of the General Data Protection Regulation (GDPR).</p>
+            <ul>
+                <li><strong>a) Personal data:</strong> Any information relating to an identified or identifiable natural person.</li>
+                <li><strong>b) Data subject:</strong> Any identified or identifiable natural person whose data is processed.</li>
+                <li><strong>c) Processing:</strong> Any operation performed on personal data.</li>
+                <li><strong>d) Restriction of processing:</strong> Marking stored data to limit future processing.</li>
+                <li><strong>e) Profiling:</strong> Automated processing to evaluate personal aspects.</li>
+                <li><strong>f) Pseudonymisation:</strong> Processing data so it can't be attributed without additional info.</li>
+                <li><strong>g) Controller:</strong> The body which determines the purposes and means of processing.</li>
+                <li><strong>h) Processor:</strong> Natural or legal person processing data on behalf of the controller.</li>
+                <li><strong>i) Recipient:</strong> Entity to which data is disclosed.</li>
+                <li><strong>j) Third party:</strong> Any body other than those listed above.</li>
+                <li><strong>k) Consent:</strong> Freely given, specific indication of the data subject's wishes.</li>
+            </ul>
+
+            <h4>2. Name and Address of the Controller</h4>
+            <p><strong>Saidos Workflow</strong><br>
+            Idsteiner Straße 19, 57074 Siegen, Germany<br>
+            Phone: +4915678357336<br>
+            Email: herbasaido3@gmail.com<br>
+            Website: <a href="https://herbasaido3-star.github.io/meta-social-media-privacy-policy/" style="color: var(--primary-color);">Official Link</a></p>
+
+            <h4>3. Cookies</h4>
+            <p>The Internet pages of Saidos Workflow may use cookies. Cookies allow us to recognize our website users and make it easier for users to utilize our website. This website itself (hosted on GitHub Pages) does not use tracking cookies or analytics tools.</p>
+
+            <h4>4. Collection of General Data and Information</h4>
+            <p>The website of Saidos Workflow collects a series of general data and information when a data subject or automated system calls up the website. This may include the browser type and version, the operating system used, the referrer URL, the hostname of the accessing computer, and the time of the server request. This information is stored in server log files and is not merged with specific personal data.</p>
+
+            <h4>5. Routine Erasure and Blocking of Personal Data</h4>
+            <p>The data controller shall process and store the personal data of the data subject only for the period necessary to achieve the purpose of storage. If the storage purpose is not applicable, or if a storage period prescribed by the European legislator expires, the personal data are routinely blocked or erased in accordance with legal requirements.</p>
+
+            <h4>6. Rights of the Data Subject</h4>
+            <p>Each data subject has the following rights granted by the European legislator:</p>
+            <ul>
+                <li><strong>Right of confirmation and access</strong> (Art. 15 GDPR)</li>
+                <li><strong>Right to rectification</strong> (Art. 16 GDPR)</li>
+                <li><strong>Right to erasure – Right to be forgotten</strong> (Art. 17 GDPR)</li>
+                <li><strong>Right to restriction of processing</strong> (Art. 18 GDPR)</li>
+                <li><strong>Right to data portability</strong> (Art. 20 GDPR)</li>
+                <li><strong>Right to object</strong> (Art. 21 GDPR)</li>
+                <li><strong>Rights regarding automated decision-making</strong> (Art. 22 GDPR)</li>
+            </ul>
+            <p>To exercise any of these rights, contact us at: <a href="mailto:herbasaido3@gmail.com" style="color: var(--primary-color);">herbasaido3@gmail.com</a></p>
+
+            <h4>7. Use of Affiliate Components (Affilinet / Awin)</h4>
+            <p>The controller may integrate components of affiliate networks such as Awin to process commission payments. These components may set cookies to track referral activity.</p>
+
+            <h4>8. Use of the Meta Graph API (Facebook &amp; Instagram)</h4>
+            <p>Our service integrates the <strong>Meta Graph API</strong> to enable automated content posting to Facebook Pages and Instagram Business accounts. We request only the minimum necessary permissions:</p>
+            <ul>
+                <li><strong>pages_manage_posts</strong> – To publish posts to Facebook Pages</li>
+                <li><strong>instagram_content_publish</strong> – To publish media to Instagram</li>
+                <li><strong>pages_read_engagement</strong> – To read basic post engagement data</li>
+            </ul>
+            <p>We do not access your personal Facebook profile, friends list, or private messages. Access tokens are stored encrypted and never shared with third parties. By connecting your Meta account, you also agree to the <a href="https://www.facebook.com/terms.php" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color);">Meta Terms of Service</a> and <a href="https://developers.facebook.com/terms/" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color);">Meta Platform Terms</a>.</p>
+
+            <h4>9. Use of the YouTube Data API v3</h4>
+            <p>Our service integrates the <strong>YouTube Data API v3</strong> (provided by Google LLC) for automated video uploads and channel management. By using this feature, you also agree to the <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color);">YouTube Terms of Service</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color);">Google Privacy Policy</a>. You can revoke access at any time via <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color);">Google Security Settings</a>.</p>
+
+            <h4>10. Use of the TikTok API</h4>
+            <p>Our service may integrate the <strong>TikTok API for Developers</strong> for automated video content publishing. By connecting your TikTok account, you agree to the <a href="https://www.tiktok.com/legal/terms-of-service" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color);">TikTok Terms of Service</a>.</p>
+
+            <h4>11. Use of Other Social Media Platform APIs</h4>
+            <p>Our service may additionally integrate the following platform APIs for content posting and automation:</p>
+            <ul>
+                <li><strong>LinkedIn API</strong> – For posting to LinkedIn profiles and company pages. Subject to <a href="https://www.linkedin.com/legal/user-agreement" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color);">LinkedIn User Agreement</a>.</li>
+                <li><strong>Pinterest API</strong> – For creating and managing pins. Subject to <a href="https://policy.pinterest.com/terms-of-service" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color);">Pinterest Terms of Service</a>.</li>
+                <li><strong>X (Twitter) API</strong> – For posting and managing content. Subject to <a href="https://twitter.com/en/tos" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color);">X Terms of Service</a>.</li>
+            </ul>
+
+            <h4>12. Data We Collect via Social Media APIs</h4>
+            <ul>
+                <li>Platform user ID and username</li>
+                <li>Account name and profile picture URL</li>
+                <li>Access tokens and refresh tokens (encrypted)</li>
+                <li>Page or channel IDs linked to your account</li>
+                <li>Content submitted for publishing (text, images, videos)</li>
+                <li>Basic post engagement metrics (only where permission is granted)</li>
+            </ul>
+
+            <h4>13. Data Sharing with Third Parties</h4>
+            <p>We do not sell, rent, or share your personal data with any third party for commercial purposes. Data is transmitted to platform APIs solely to fulfill the content posting service. This site is hosted on GitHub Pages – see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color);">GitHub Privacy Statement</a>.</p>
+
+            <h4>14. Legal Basis for the Processing</h4>
+            <ul>
+                <li><strong>Art. 6(1)(a)</strong> – Explicit consent to connect your social media accounts.</li>
+                <li><strong>Art. 6(1)(b)</strong> – Necessary to perform the content posting service.</li>
+                <li><strong>Art. 6(1)(c)</strong> – Required to comply with a legal obligation.</li>
+                <li><strong>Art. 6(1)(f)</strong> – Legitimate interest in improving and securing our tools.</li>
+            </ul>
+
+            <h4>15. Legitimate Interests</h4>
+            <p>Our legitimate interest is to provide reliable, secure, and efficient social media automation tools that help creators and businesses manage their content across platforms.</p>
+
+            <h4>16. Retention Period</h4>
+            <ul>
+                <li>Access tokens: until you disconnect your account or they expire</li>
+                <li>Published content records (error logs): up to 90 days</li>
+                <li>Analytics data: up to 12 months</li>
+            </ul>
+
+            <h4>17. Data Security</h4>
+            <p>We implement appropriate technical and organizational measures to protect your personal data, including encrypted storage of access tokens and secure HTTPS transmission.</p>
+
+            <h4>18. Automated Decision-Making</h4>
+            <p>As a responsible company, we do not use automatic decision-making or profiling that produces legal or similarly significant effects.</p>
+
+            <h4>19. Changes to This Privacy Policy</h4>
+            <p>We reserve the right to update this Privacy Policy at any time. Changes will be published on this page with an updated date.</p>
+
+            <h4>20. Right to Lodge a Complaint</h4>
+            <p>You have the right to lodge a complaint with a supervisory authority. In Germany, the competent authority is the <em>Landesbeauftragte für Datenschutz und Informationsfreiheit</em> of North Rhine-Westphalia.</p>
+
+            <hr style="margin: 30px 0; border: 0; border-top: 1px dotted #eee;">
+            <p style="font-size: 0.8rem; color: #999;">Developed with the legal support of DG-Datenschutz and WBS Law. Last updated: March 2026.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Saidos Workflow. All rights reserved. | Professional Social Media Automation Solutions.</p>
+    </footer>
+
+</body>
+</html>
