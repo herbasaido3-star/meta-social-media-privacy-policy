@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion Request | Saidos Workflow</title>
+
+    <meta name="description" content="Request deletion of your personal data and social media account data collected by Saidos Workflow via Meta API, YouTube API, TikTok and other platforms. GDPR compliant.">
+    <meta name="keywords" content="Data Deletion, Delete My Data, Meta API, Facebook Data Deletion, Instagram Data Deletion, GDPR, Right to Erasure, Saidos Workflow">
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://herbasaido3-star.github.io/meta-social-media-privacy-policy/data-deletion.html" />
+
+    <style>
+        :root {
+            --primary-color: #ee1d52;
+            --bg-color: #f4f4f4;
+            --card-bg: #ffffff;
+            --text-color: #333;
+            --muted-text: #888;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 { font-size: 2.8rem; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px 60px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .back-link:hover { text-decoration: underline; }
+
+        .card {
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.4rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--primary-color);
+            padding-left: 12px;
+        }
+
+        h2:first-child { margin-top: 0; }
+
+        p, li { margin-bottom: 15px; font-size: 15px; color: #444; }
+        ul { padding-left: 20px; margin-bottom: 20px; }
+
+        a { color: var(--primary-color); text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+
+        .highlight-box {
+            background: #fff5f7;
+            border-left: 5px solid var(--primary-color);
+            border-radius: 0 8px 8px 0;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-size: 15px;
+            color: #444;
+        }
+
+        /* Request Form */
+        .deletion-form {
+            background: #fff5f7;
+            border: 1px solid #ffd0da;
+            border-radius: 10px;
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 6px;
+            font-size: 14px;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 15px;
+            font-family: 'Segoe UI', sans-serif;
+            color: #333;
+            background: #fff;
+            transition: border-color 0.2s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .form-group textarea { resize: vertical; min-height: 100px; }
+
+        .btn-submit {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.2s, transform 0.2s;
+        }
+
+        .btn-submit:hover {
+            background-color: #cc1645;
+            transform: translateY(-1px);
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Steps */
+        .steps {
+            counter-reset: step-counter;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .steps li {
+            counter-increment: step-counter;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 18px;
+            padding: 15px;
+            background: #fafafa;
+            border-radius: 8px;
+            border: 1px solid #eee;
+        }
+
+        .steps li::before {
+            content: counter(step-counter);
+            background: var(--primary-color);
+            color: white;
+            font-weight: bold;
+            font-size: 13px;
+            min-width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .step-content strong {
+            display: block;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        .step-content span { font-size: 14px; color: #666; }
+
+        /* Platform revoke links */
+        .platform-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .platform-list li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+            margin-bottom: 0;
+        }
+
+        .platform-list li:last-child { border-bottom: none; }
+
+        .platform-badge {
+            font-size: 12px;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 4px;
+            background: #fff0f3;
+            color: var(--primary-color);
+            border: 1px solid #ffd0da;
+            min-width: 80px;
+            text-align: center;
+        }
+
+        /* Confirmation box */
+        .confirmation-box {
+            background: #f0fff4;
+            border-left: 5px solid #28a745;
+            border-radius: 0 8px 8px 0;
+            padding: 15px 20px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .confirmation-box p { color: #155724; margin: 0; }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--muted-text);
+            font-size: 0.9rem;
+        }
+
+        footer a { color: var(--primary-color); text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Saidos Workflow</h1>
+        <p>Data Deletion Request</p>
+    </header>
+
+    <main class="container">
+        <a href="index.html" class="back-link">&larr; Back to Home</a>
+
+        <!-- INTRO -->
+        <div class="card">
+            <h2>Your Right to Data Deletion</h2>
+            <p>Under the <strong>EU General Data Protection Regulation (GDPR)</strong> – specifically <strong>Art. 17 GDPR (Right to Erasure / "Right to be Forgotten")</strong> – you have the right to request the deletion of all personal data we have collected about you through our social media automation services.</p>
+
+            <div class="highlight-box">
+                This page is the official data deletion request page for <strong>Saidos Workflow</strong> and fulfills the data deletion callback requirement for the <strong>Meta App Review</strong> (Facebook &amp; Instagram). After submitting your request, we will delete all associated data within <strong>30 days</strong>.
+            </div>
+
+            <h2>What Data Will Be Deleted</h2>
+            <p>Upon your request, we will permanently delete all data associated with your connected accounts, including:</p>
+            <ul>
+                <li>Your platform user ID and username</li>
+                <li>All stored OAuth access tokens and refresh tokens</li>
+                <li>Connected page IDs and channel IDs</li>
+                <li>Content submitted for publishing (text, images, video metadata)</li>
+                <li>Post scheduling records and error logs</li>
+                <li>Any basic engagement metrics associated with your account</li>
+            </ul>
+        </div>
+
+        <!-- HOW TO REQUEST -->
+        <div class="card">
+            <h2>How to Request Data Deletion</h2>
+            <p>You can request deletion of your data in two ways:</p>
+
+            <ol class="steps">
+                <li>
+                    <div class="step-content">
+                        <strong>Option 1 – Email Request (Recommended)</strong>
+                        <span>Send an email to <a href="mailto:herbasaido3@gmail.com">herbasaido3@gmail.com</a> with the subject line <em>"Data Deletion Request"</em> and include the email address or platform username associated with your account. We will confirm deletion within 30 days.</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="step-content">
+                        <strong>Option 2 – Use the Request Form Below</strong>
+                        <span>Fill in the form below and submit your deletion request directly. You will receive a confirmation email within 3 business days.</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="step-content">
+                        <strong>Option 3 – Revoke Access Directly on the Platform</strong>
+                        <span>You can immediately revoke our access to your social media accounts directly in your platform settings (see links below). This stops all future data processing, but does not delete historical data from our systems — for full deletion, please also submit a request via Option 1 or 2.</span>
+                    </div>
+                </li>
+            </ol>
+        </div>
+
+        <!-- REVOKE DIRECT ACCESS -->
+        <div class="card">
+            <h2>Revoke Access Directly on Your Platform</h2>
+            <p>To immediately stop Saidos Workflow from accessing your accounts, revoke access here:</p>
+
+            <ul class="platform-list">
+                <li>
+                    <span class="platform-badge">Meta</span>
+                    <a href="https://www.facebook.com/settings?tab=applications" target="_blank" rel="noopener noreferrer">Facebook → Settings → Apps and Websites</a>
+                </li>
+                <li>
+                    <span class="platform-badge">Instagram</span>
+                    <a href="https://www.instagram.com/accounts/manage_access/" target="_blank" rel="noopener noreferrer">Instagram → Settings → Apps and Websites</a>
+                </li>
+                <li>
+                    <span class="platform-badge">YouTube</span>
+                    <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener noreferrer">Google Account → Security → Third-party apps with account access</a>
+                </li>
+                <li>
+                    <span class="platform-badge">TikTok</span>
+                    <span>TikTok App → Profile → Settings → Privacy → Connected Apps</span>
+                </li>
+                <li>
+                    <span class="platform-badge">LinkedIn</span>
+                    <a href="https://www.linkedin.com/psettings/permitted-services" target="_blank" rel="noopener noreferrer">LinkedIn → Settings → Data Privacy → Permitted Services</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- REQUEST FORM -->
+        <div class="card">
+            <h2>Data Deletion Request Form</h2>
+            <p>Fill in the form below to submit your deletion request. We will process your request and confirm deletion within <strong>30 days</strong>.</p>
+
+            <div class="deletion-form">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" placeholder="Your full name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" placeholder="The email address associated with your account" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="platform">Platform(s) to Delete Data From *</label>
+                    <select id="platform">
+                        <option value="">-- Select platform --</option>
+                        <option value="meta">Meta (Facebook &amp; Instagram)</option>
+                        <option value="youtube">YouTube</option>
+                        <option value="tiktok">TikTok</option>
+                        <option value="linkedin">LinkedIn</option>
+                        <option value="pinterest">Pinterest</option>
+                        <option value="twitter">X (Twitter)</option>
+                        <option value="all">All platforms</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="username">Platform Username or Page ID (optional)</label>
+                    <input type="text" id="username" placeholder="e.g. @yourusername or your Facebook Page name" />
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Additional Information (optional)</label>
+                    <textarea id="message" placeholder="Any additional details about your deletion request..."></textarea>
+                </div>
+
+                <a href="mailto:herbasaido3@gmail.com?subject=Data Deletion Request – Saidos Workflow&body=Hello,%0A%0AI would like to request the deletion of all personal data associated with my account.%0A%0AName: %0AEmail: %0APlatform: %0AUsername / Page ID: %0A%0AAdditional information: %0A%0AThank you." class="btn-submit">
+                    Submit Deletion Request
+                </a>
+
+                <div class="highlight-box" style="margin-top: 20px;">
+                    <strong>Note:</strong> Clicking "Submit Deletion Request" will open your email client with a pre-filled deletion request. Simply review and send. We will confirm receipt and process your request within <strong>30 days</strong> in accordance with Art. 17 GDPR.
+                </div>
+            </div>
+        </div>
+
+        <!-- TIMELINE -->
+        <div class="card">
+            <h2>What Happens After Your Request</h2>
+            <ol class="steps">
+                <li>
+                    <div class="step-content">
+                        <strong>Confirmation (within 3 business days)</strong>
+                        <span>We will send you a confirmation email acknowledging receipt of your deletion request.</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="step-content">
+                        <strong>Processing (within 30 days)</strong>
+                        <span>We will permanently delete all personal data associated with your account from our systems, including access tokens, content records, and log files.</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="step-content">
+                        <strong>Final Confirmation</strong>
+                        <span>You will receive a final confirmation email once all your data has been permanently deleted.</span>
+                    </div>
+                </li>
+            </ol>
+
+            <div class="highlight-box">
+                <strong>Important:</strong> Data deletion is permanent and cannot be undone. After deletion, you will need to reconnect your social media accounts if you wish to use our services again.
+            </div>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="card">
+            <h2>Questions About Data Deletion?</h2>
+            <p>If you have any questions about your data or this deletion process, contact us directly:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:herbasaido3@gmail.com">herbasaido3@gmail.com</a></li>
+                <li><strong>Address:</strong> Saidos Workflow, Idsteiner Straße 19, 57074 Siegen, Germany</li>
+                <li><strong>Phone:</strong> +4915678357336</li>
+                <li><strong>Privacy Policy:</strong> <a href="EN_Social_Media_privacy-en.html">Privacy Policy (EN)</a></li>
+                <li><strong>Datenschutzerklärung:</strong> <a href="datenschutz-und-impressum.html">Datenschutz & Impressum (DE)</a></li>
+            </ul>
+            <p>You also have the right to lodge a complaint with a supervisory authority. In Germany: <em>Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen</em>.</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Saidos Workflow. All rights reserved. |
+            <a href="index.html">Home</a> ·
+            <a href="EN_Social_Media_privacy-en.html">Privacy Policy</a> ·
+            <a href="datenschutz-und-impressum.html">Impressum</a>
+        </p>
+    </footer>
+
+</body>
+</html>
