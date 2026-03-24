@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenlöschung beantragen | Saidos Workflow</title>
+
+    <meta name="description" content="Beantragen Sie die Löschung Ihrer persönlichen Daten bei Saidos Workflow – DSGVO-konform, Art. 17 DSGVO. Gilt für Meta API, YouTube, TikTok, LinkedIn und weitere Plattformen.">
+    <meta name="keywords" content="Datenlöschung, Daten löschen, DSGVO, Recht auf Löschung, Art. 17 DSGVO, Meta API, Facebook, Instagram, YouTube, TikTok, Saidos Workflow">
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://herbasaido3-star.github.io/meta-social-media-privacy-policy/datenschutz-loeschung.html" />
+
+    <style>
+        :root {
+            --primary-color: #ee1d52;
+            --bg-color: #f4f4f4;
+            --card-bg: #ffffff;
+            --text-color: #333;
+            --muted-text: #888;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 { font-size: 2.8rem; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px 60px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .back-link:hover { text-decoration: underline; }
+
+        .card {
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.4rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--primary-color);
+            padding-left: 12px;
+        }
+
+        h2:first-child { margin-top: 0; }
+
+        p, li { margin-bottom: 15px; font-size: 15px; color: #444; }
+        ul { padding-left: 20px; margin-bottom: 20px; }
+
+        a { color: var(--primary-color); text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+
+        .highlight-box {
+            background: #fff5f7;
+            border-left: 5px solid var(--primary-color);
+            border-radius: 0 8px 8px 0;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-size: 15px;
+            color: #444;
+        }
+
+        .deletion-form {
+            background: #fff5f7;
+            border: 1px solid #ffd0da;
+            border-radius: 10px;
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        .form-group { margin-bottom: 20px; }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 6px;
+            font-size: 14px;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 15px;
+            font-family: 'Segoe UI', sans-serif;
+            color: #333;
+            background: #fff;
+            transition: border-color 0.2s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .form-group textarea { resize: vertical; min-height: 100px; }
+
+        .btn-submit {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.2s, transform 0.2s;
+        }
+
+        .btn-submit:hover {
+            background-color: #cc1645;
+            transform: translateY(-1px);
+            color: white;
+            text-decoration: none;
+        }
+
+        .steps {
+            counter-reset: step-counter;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .steps li {
+            counter-increment: step-counter;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 18px;
+            padding: 15px;
+            background: #fafafa;
+            border-radius: 8px;
+            border: 1px solid #eee;
+        }
+
+        .steps li::before {
+            content: counter(step-counter);
+            background: var(--primary-color);
+            color: white;
+            font-weight: bold;
+            font-size: 13px;
+            min-width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .step-content strong {
+            display: block;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        .step-content span { font-size: 14px; color: #666; }
+
+        .platform-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .platform-list li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+            margin-bottom: 0;
+        }
+
+        .platform-list li:last-child { border-bottom: none; }
+
+        .platform-badge {
+            font-size: 12px;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 4px;
+            background: #fff0f3;
+            color: var(--primary-color);
+            border: 1px solid #ffd0da;
+            min-width: 80px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--muted-text);
+            font-size: 0.9rem;
+        }
+
+        footer a { color: var(--primary-color); text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Saidos Workflow</h1>
+        <p>Datenlöschung beantragen</p>
+    </header>
+
+    <main class="container">
+        <a href="index.html" class="back-link">&larr; Zurück zur Startseite</a>
+
+        <!-- EINLEITUNG -->
+        <div class="card">
+            <h2>Ihr Recht auf Datenlöschung</h2>
+            <p>Gemäß der <strong>EU-Datenschutz-Grundverordnung (DSGVO)</strong> – insbesondere <strong>Art. 17 DSGVO (Recht auf Löschung / „Recht auf Vergessenwerden")</strong> – haben Sie das Recht, die Löschung aller personenbezogenen Daten zu verlangen, die wir über unsere Social-Media-Automatisierungsdienste von Ihnen erhoben haben.</p>
+
+            <div class="highlight-box">
+                Diese Seite ist die offizielle Datenlöschungsseite von <strong>Saidos Workflow</strong> und erfüllt die Anforderungen an die Datenlöschungs-URL für den <strong>Meta App Review</strong> (Facebook &amp; Instagram). Nach Eingang Ihrer Anfrage löschen wir alle zugehörigen Daten innerhalb von <strong>30 Tagen</strong>.
+            </div>
+
+            <h2>Welche Daten gelöscht werden</h2>
+            <p>Auf Ihre Anfrage hin löschen wir dauerhaft alle Daten, die mit Ihren verbundenen Konten verknüpft sind, darunter:</p>
+            <ul>
+                <li>Ihre Plattform-Nutzer-ID und Ihr Benutzername</li>
+                <li>Alle gespeicherten OAuth-Zugriffstoken und Aktualisierungstoken</li>
+                <li>Verknüpfte Seiten-IDs und Kanal-IDs</li>
+                <li>Zur Veröffentlichung eingereichte Inhalte (Texte, Bilder, Video-Metadaten)</li>
+                <li>Beitragsplanungsdaten und Fehlerprotokolle</li>
+                <li>Grundlegende Interaktionsdaten, die mit Ihrem Konto verknüpft sind</li>
+            </ul>
+        </div>
+
+        <!-- WIE BEANTRAGEN -->
+        <div class="card">
+            <h2>So beantragen Sie die Datenlöschung</h2>
+            <p>Sie können die Löschung Ihrer Daten auf zwei Wegen beantragen:</p>
+
+            <ol class="steps">
+                <li>
+                    <div class="step-content">
+                        <strong>Option 1 – Anfrage per E-Mail (empfohlen)</strong>
+                        <span>Senden Sie eine E-Mail an <a href="mailto:herbasaido3@gmail.com">herbasaido3@gmail.com</a> mit dem Betreff <em>„Datenlöschungsanfrage"</em> und geben Sie die E-Mail-Adresse oder den Plattform-Benutzernamen Ihres Kontos an. Wir bestätigen die Löschung innerhalb von 30 Tagen.</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="step-content">
+                        <strong>Option 2 – Formular unten verwenden</strong>
+                        <span>Füllen Sie das untenstehende Formular aus und senden Sie Ihre Löschungsanfrage direkt ab. Sie erhalten innerhalb von 3 Werktagen eine Bestätigungs-E-Mail.</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="step-content">
+                        <strong>Option 3 – Zugriff direkt auf der Plattform widerrufen</strong>
+                        <span>Sie können unseren Zugriff auf Ihre Social-Media-Konten sofort direkt in Ihren Plattform-Einstellungen widerrufen (siehe Links unten). Dies stoppt alle zukünftigen Datenverarbeitungen, löscht jedoch keine historischen Daten aus unseren Systemen. Für eine vollständige Löschung senden Sie bitte zusätzlich eine Anfrage per Option 1 oder 2.</span>
+                    </div>
+                </li>
+            </ol>
+        </div>
+
+        <!-- ZUGRIFF WIDERRUFEN -->
+        <div class="card">
+            <h2>Zugriff direkt auf der Plattform widerrufen</h2>
+            <p>Um den Zugriff von Saidos Workflow auf Ihre Konten sofort zu beenden, widerrufen Sie den Zugriff hier:</p>
+
+            <ul class="platform-list">
+                <li>
+                    <span class="platform-badge">Meta</span>
+                    <a href="https://www.facebook.com/settings?tab=applications" target="_blank" rel="noopener noreferrer">Facebook → Einstellungen → Apps und Websites</a>
+                </li>
+                <li>
+                    <span class="platform-badge">Instagram</span>
+                    <a href="https://www.instagram.com/accounts/manage_access/" target="_blank" rel="noopener noreferrer">Instagram → Einstellungen → Apps und Websites</a>
+                </li>
+                <li>
+                    <span class="platform-badge">YouTube</span>
+                    <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener noreferrer">Google-Konto → Sicherheit → Drittanbieter-Apps mit Kontozugriff</a>
+                </li>
+                <li>
+                    <span class="platform-badge">TikTok</span>
+                    <span>TikTok App → Profil → Einstellungen → Datenschutz → Verbundene Apps</span>
+                </li>
+                <li>
+                    <span class="platform-badge">LinkedIn</span>
+                    <a href="https://www.linkedin.com/psettings/permitted-services" target="_blank" rel="noopener noreferrer">LinkedIn → Einstellungen → Datenschutz → Zugelassene Dienste</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ANTRAGSFORMULAR -->
+        <div class="card">
+            <h2>Datenlöschungs-Antragsformular</h2>
+            <p>Füllen Sie das untenstehende Formular aus, um Ihre Löschungsanfrage einzureichen. Wir bearbeiten Ihre Anfrage und bestätigen die Löschung innerhalb von <strong>30 Tagen</strong>.</p>
+
+            <div class="deletion-form">
+                <div class="form-group">
+                    <label for="name">Vollständiger Name *</label>
+                    <input type="text" id="name" placeholder="Ihr vollständiger Name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-Mail-Adresse *</label>
+                    <input type="email" id="email" placeholder="Die mit Ihrem Konto verknüpfte E-Mail-Adresse" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="platform">Plattform(en), von denen Daten gelöscht werden sollen *</label>
+                    <select id="platform">
+                        <option value="">-- Plattform auswählen --</option>
+                        <option value="meta">Meta (Facebook &amp; Instagram)</option>
+                        <option value="youtube">YouTube</option>
+                        <option value="tiktok">TikTok</option>
+                        <option value="linkedin">LinkedIn</option>
+                        <option value="pinterest">Pinterest</option>
+                        <option value="twitter">X (Twitter)</option>
+                        <option value="all">Alle Plattformen</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="username">Plattform-Benutzername oder Seiten-ID (optional)</label>
+                    <input type="text" id="username" placeholder="z. B. @IhrBenutzername oder Name Ihrer Facebook-Seite" />
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Zusätzliche Informationen (optional)</label>
+                    <textarea id="message" placeholder="Weitere Angaben zu Ihrer Löschungsanfrage..."></textarea>
+                </div>
+
+                <a href="mailto:herbasaido3@gmail.com?subject=Datenlöschungsanfrage – Saidos Workflow&body=Guten Tag,%0A%0Aich möchte die Löschung aller personenbezogenen Daten beantragen, die mit meinem Konto verknüpft sind.%0A%0AName: %0AE-Mail: %0APlattform: %0ABenutzername / Seiten-ID: %0A%0AZusätzliche Informationen: %0A%0AMit freundlichen Grüßen" class="btn-submit">
+                    Löschungsanfrage absenden
+                </a>
+
+                <div class="highlight-box" style="margin-top: 20px;">
+                    <strong>Hinweis:</strong> Ein Klick auf „Löschungsanfrage absenden" öffnet Ihr E-Mail-Programm mit einer vorausgefüllten Anfrage. Bitte prüfen und senden Sie diese ab. Wir bestätigen den Eingang und bearbeiten Ihre Anfrage innerhalb von <strong>30 Tagen</strong> gemäß Art. 17 DSGVO.
+                </div>
+            </div>
+        </div>
+
+        <!-- ABLAUF -->
+        <div class="card">
+            <h2>Was nach Ihrer Anfrage passiert</h2>
+
+            <ol class="steps">
+                <li>
+                    <div class="step-content">
+                        <strong>Eingangsbestätigung (innerhalb von 3 Werktagen)</strong>
+                        <span>Wir senden Ihnen eine Bestätigungs-E-Mail, in der wir den Eingang Ihrer Löschungsanfrage bestätigen.</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="step-content">
+                        <strong>Bearbeitung (innerhalb von 30 Tagen)</strong>
+                        <span>Wir löschen dauerhaft alle personenbezogenen Daten, die mit Ihrem Konto in unseren Systemen verknüpft sind – einschließlich Zugriffstoken, Inhaltsdaten und Protokolldateien.</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="step-content">
+                        <strong>Abschlussbestätigung</strong>
+                        <span>Sie erhalten eine abschließende Bestätigungs-E-Mail, sobald alle Ihre Daten dauerhaft gelöscht wurden.</span>
+                    </div>
+                </li>
+            </ol>
+
+            <div class="highlight-box">
+                <strong>Wichtiger Hinweis:</strong> Die Datenlöschung ist endgültig und kann nicht rückgängig gemacht werden. Nach der Löschung müssen Sie Ihre Social-Media-Konten erneut verbinden, wenn Sie unsere Dienste wieder nutzen möchten.
+            </div>
+        </div>
+
+        <!-- KONTAKT -->
+        <div class="card">
+            <h2>Fragen zur Datenlöschung?</h2>
+            <p>Bei Fragen zu Ihren Daten oder zum Löschungsprozess kontaktieren Sie uns direkt:</p>
+            <ul>
+                <li><strong>E-Mail:</strong> <a href="mailto:herbasaido3@gmail.com">herbasaido3@gmail.com</a></li>
+                <li><strong>Adresse:</strong> Saidos Workflow, Idsteiner Straße 19, 57074 Siegen, Deutschland</li>
+                <li><strong>Telefon:</strong> +4915678357336</li>
+                <li><strong>Datenschutzerklärung (DE):</strong> <a href="datenschutz-und-impressum.html">Datenschutz &amp; Impressum</a></li>
+                <li><strong>Privacy Policy (EN):</strong> <a href="EN_Social_Media_privacy-en.html">Privacy Policy</a></li>
+            </ul>
+            <p>Sie haben außerdem das Recht, Beschwerde bei einer Datenschutzaufsichtsbehörde einzulegen. In Deutschland ist die zuständige Behörde die <em>Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen</em>.</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Saidos Workflow. Alle Rechte vorbehalten. |
+            <a href="index.html">Startseite</a> ·
+            <a href="datenschutz-und-impressum.html">Datenschutz &amp; Impressum</a> ·
+            <a href="EN_Social_Media_privacy-en.html">Privacy Policy</a>
+        </p>
+    </footer>
+
+</body>
+</html>
